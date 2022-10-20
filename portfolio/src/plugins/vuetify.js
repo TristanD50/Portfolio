@@ -14,10 +14,14 @@ export default createVuetify({
     },
   },
   theme: {
+    options: {
+      customProperties: true,
+    },
     themes: {
       dark: {
-        backgound: '#111111'
-      }
-    }
+        backgound: '#292930',
+      },
+    },
+    dark: true,
   }
 })

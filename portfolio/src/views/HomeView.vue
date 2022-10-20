@@ -1,11 +1,10 @@
 <template>
-  <v-app: style="{ background: $vuetify.theme.themes.dark.background}">
-    <NavBar />
-  </v-app:>
+  <NavBar />
 </template>
 
 <script>
-import NavBar from '../components/NavBar';
+
+import NavBar from '../components/NavBar.vue';
 
 export default {
   name: 'HomeView',
@@ -13,5 +12,5 @@ export default {
   components: {
     NavBar,
   },
-};
+}
 </script>

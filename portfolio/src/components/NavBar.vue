@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app color="#111111" dark flat class="px-8">
     <v-btn icon>
-      <v-icon color="#A7121D">fas fa-dragon</v-icon>
+      <v-icon color="#A7121D" icon="fa:fab fa-rebel"></v-icon>
     </v-btn>
     <v-spacer></v-spacer>
     <v-btn text @click="scroll('home')">Home</v-btn>
